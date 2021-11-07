@@ -1,0 +1,5 @@
+---
+- name: Perform Update
+  import_tasks: win_update.yml
+  when:
+    - winupdate == 'yes'

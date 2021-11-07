@@ -1,0 +1,5 @@
+---
+- name: Updating Windows
+  win_updates:
+    category_names: '*'
+    reboot: yes
